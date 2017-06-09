@@ -1,0 +1,17 @@
+{
+  "env": {
+    "es6": true,
+    "browser": true
+  },
+  "extends": "eslint:all",
+  "rules": {
+  	"indent": ["error", 4],
+    "quotes": ["error", "double"],
+    "semi": ["error", "always"],
+    "linebreak-style": "off",
+    "strict": [2, "global"],
+    "one-var": ["error", { var: "always", let: "never", const: "never" }],
+    "padded-blocks": ["error", { blocks: "never", classes: "always", switches: "always" }],
+    "no-console": ["error", { allow: ["warn", "error"] }]
+  }
+}
