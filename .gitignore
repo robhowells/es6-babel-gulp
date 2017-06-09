@@ -62,3 +62,6 @@ Thumbs.db
 # Ignore the Node Modules folder
 /node_modules
 /phantomas
+
+# Ignore the .tmp folder
+/.temp

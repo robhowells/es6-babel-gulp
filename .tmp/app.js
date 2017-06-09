@@ -1,5 +1,7 @@
 "use strict";
 
+var myModule = require("./modules/module.js");
+
 var const1 = 1;
 var const2 = 2;
 
@@ -23,3 +25,6 @@ var sum3 = function sum3() {
 sum1(const1, const2);
 sum2(const1, const2);
 sum3();
+
+// Imported module
+myModule();
